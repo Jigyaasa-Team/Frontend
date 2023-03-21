@@ -14,7 +14,7 @@ import hamburgerIcon from '../../assets/images/hamburger.png';
 import { restUrl } from '../../endpoints';
 
 const LandingPage = () => {
-    const token = localStorage.getItem('token');
+    const token = localStorage.getItem('token') ;
     const navigate = useNavigate();
     const [navtoggle, setnavtoggle] = useState(false);
     const [email, setEmail] = useState('');
